@@ -158,7 +158,7 @@ class _HomeState extends State<Home> {
       ),
       style: TextStyle(fontSize: 25.0, color: Colors.amber),
       onChanged: f,
-      keyboardType: TextInputType.number,
+      keyboardType: TextInputType.numberWithOptions(decimal: true),
     );
   }
   //==============================================================babayte
